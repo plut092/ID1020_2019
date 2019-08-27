@@ -10,7 +10,7 @@ public class Main {
         // setup for stdin
         Scanner stdin = new Scanner(System.in);
         // reading first int from stdin to variable that decides array size
-        System.out.print("Input an integer with the size of the array\n" +
+        System.out.println("Input an integer with the size of the array\n" +
                 "followed by that many integers to be reversed: ");
         int nrElements = stdin.nextInt();
 
