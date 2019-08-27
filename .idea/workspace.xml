@@ -9,13 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b2705fb-07fc-46b8-b11b-12e8fd814632" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ID1020_2019.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab0/Assignment2/assignment2.c" afterDir="false" />
-    </list>
+    <list default="true" id="4b2705fb-07fc-46b8-b11b-12e8fd814632" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +26,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Lab0" />
     <property name="settings.editor.selected.configurable" value="CLionExternalConfigurable" />
   </component>
@@ -58,6 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1566835127855</updated>
       <workItem from="1566835130645" duration="996000" />
+      <workItem from="1566940800377" duration="92000" />
     </task>
     <servers />
   </component>
@@ -69,7 +65,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
