@@ -1,18 +1,4 @@
-/**
- * Created by Johan Engström 2019-09-08
- * <p>
- * Assignment 5.1:
- * 12
- * /    \
- * 8       22
- * /  \        \
- * 5   10        37
- * /
- * 2
- * prefix:12,8,5,2,10,22,37
- * infix:2,5,8,10,12,22,37
- * postfix:2,5,10,8,22,37,12
- */
+
 public class BinaryTree {
     Node root;
 

@@ -1,3 +1,15 @@
+/**
+ * Created by Johan Engström 2019-09-08
+ * <p>
+ * Assignment 5.1:
+ *             12
+ *           /    \
+ *         8       22
+ *       /  \        \
+ *      5   10        37
+ *    /
+ *  2
+ */
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
