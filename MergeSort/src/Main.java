@@ -8,15 +8,28 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
 
-        Comparable[] intArray = generateIntArray(50);
-        Comparable[] floatArray = generateFloatArray(50);
-        Comparable[] charArray = generateCharArray(50);
+        Comparable[] intArray = generateIntArray(5000000);
+        Comparable[] floatArray = generateFloatArray(10);
+        Comparable[] charArray = generateCharArray(50000);
 
-        run(intArray);
-        runTimed(floatArray);
+        runTimed(intArray);
+        runTimed(charArray);
+        runTimedToConsole(floatArray);
     }
 
-    public static void run(Comparable[] array) {
+    public static void runTimed(Comparable[] array) {
+        isSorted(array);
+        long startTime = System.nanoTime();
+        MergeSort.sort(array);
+        long endTime = System.nanoTime();
+        long timeElapsed = endTime - startTime;
+        System.out.println(timeElapsed / 1000000 + " ms");
+        System.out.println(timeElapsed / 1000000000.0 + " s");
+        isSorted(array);
+        System.out.println("-----------------------------------------------------------");
+    }
+
+    public static void runOutputToConsole(Comparable[] array) {
         print(array);
         isSorted(array);
         MergeSort.sort(array);
@@ -25,7 +38,7 @@ public class Main {
         System.out.println("-----------------------------------------------------------");
     }
 
-    public static void runTimed(Comparable[] array) {
+    public static void runTimedToConsole(Comparable[] array) {
         print(array);
         isSorted(array);
         long startTime = System.nanoTime();
@@ -33,8 +46,9 @@ public class Main {
         long endTime = System.nanoTime();
         long timeElapsed = endTime - startTime;
         print(array);
+        System.out.println((timeElapsed) / 1000000.0 + " ms");
+        System.out.println(timeElapsed / 1000000000.0 + " s");
         isSorted(array);
-        System.out.println((timeElapsed) + " ns");
         System.out.println("-----------------------------------------------------------");
     }
 
@@ -67,7 +81,7 @@ public class Main {
     }
 
     public static void isSorted(Comparable[] array) {
-        System.out.println(MergeSort.isSorted(array));
+        System.out.println("Array sorted: " + MergeSort.isSorted(array));
     }
 
     public static void print(Comparable[] array) {
