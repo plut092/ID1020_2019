@@ -1,3 +1,6 @@
+/**Created by Johan Engström 2019-09-11
+ * Mergesort with code from coarse material of ID1020
+ */
 public class MergeSort {
     /**
      * Merge sort with and auxiliary array for the sorting operation
@@ -19,7 +22,7 @@ public class MergeSort {
         }
 
         /**
-         * merging of the two subarrays from auxiliary array to the array
+         * Merging of the two subarrays from auxiliary array to the array
          * i going from lo to mid indices of the subarray
          * j going from (mid+1) to hi indices of the subarray
          * k iterates through the whole array a
